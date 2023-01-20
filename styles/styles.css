@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Montserrat:wght@100;200;300;400;500;600&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@900&display=swap");
+
+body {
+  background-color: #e1e3ea;
+  font-family: "Carrois Gothic SC", sans-serif;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: "Carrois Gothic SC", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.app {
+  width: 60%;
+}
+
+@media (max-width: 768px) {
+  .app {
+    width: 90%;
+  }
+}
+
+.app h1 {
+  color: white;
+  font-size: 40px;
+  padding: 10px 0px;
+  text-align: center;
+  border-radius: 0.5rem 0.5rem 0 0;
+  background-color: #de3f53;
+  font-family: "Carrois Gothic SC", sans-serif;
+}
+
+.app form {
+  display: flex;
+  width: 100%;
+  background-color: #2121218e;
+}
+
+.app form input {
+  border: none;
+  background-color: #2121218e;
+  font-size: 18px;
+  color: #f1f1f1;
+  padding: 10px;
+  width: 90%;
+  height: 47px;
+  font-family: "Carrois Gothic SC", sans-serif;
+}
+
+.app form button {
+  border: none;
+  color: #f1f1f1;
+  background-color: #2121218e;
+  font-size: 25px;
+  font-weight: 600;
+  height: 47px;
+  width: 10%;
+}
+
+.app ul {
+  list-style: none;
+  color: #e0e0e0;
+  padding: 0;
+}
+
+.app ul li {
+  padding: 10px;
+  background-color: #212121a0;
+}
+
+.check {
+  width: 0.9em;
+  height: 0.9em;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.check:checked {
+  accent-color: #de3f53;
+}
+
+.task {
+  font-size: 18px;
+  padding: 0 10px;
+  background-color: transparent;
+  color: white;
+  font-family: "Carrois Gothic SC", sans-serif;
+}
+
+.task:focus {
+  outline: none;
+}
+
+.app ul li i {
+  float: right;
+  cursor: pointer;
+}
+
+.app ul li i:hover {
+  color: rgb(255, 82, 82);
+}
+
+.complete {
+  color: rgba(192, 192, 192, 0.8);
+  text-decoration: line-through;
+}
+
+input {
+  border: none;
+}
